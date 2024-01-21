@@ -1,4 +1,4 @@
-To access related services, simply add `using FmgLib.Localization;` statement.
+﻿To access related services, simply add `using FmgLib.Localization;` statement.
 
 
 In the Program.cs file,
@@ -25,7 +25,18 @@ it will read json files in given file paths.
 
 Proper json format:
 
-![image](https://user-images.githubusercontent.com/73774639/225441549-4c195df7-789a-4887-87d2-d5f6f434433c.png)
+```json
+{
+  "Hello": {
+    "tr-TR": "Merhaba Dünya!",
+    "en-US": "Hello World!"
+  },
+  "Msg": {
+    "tr-TR": "Deneme amaçlı yapılmıştır.",
+    "en-US": "It was made for testing purposes."
+  }
+}
+```
 
 Instead of 'keyWord' keywords, you can use any word or phrase(s) you want. You don't have any Regex limitations.
 
