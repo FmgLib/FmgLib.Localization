@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>FmgLib.Localization</Title>
+		<Company>Fmg Yazılım</Company>
+		<PackageIcon>FMGYAZILIM_LOGO.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Authors>FmgYazılım</Authors>
+		<Description>This package serves to integrate your system into multiple languages.</Description>
+		<Copyright>Copyright 2023</Copyright>
+		<PackageTags>Localization</PackageTags>
+		<Version>1.0.3</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="FMGYAZILIM_LOGO.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

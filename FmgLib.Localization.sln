@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34511.98
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FmgLib.Localization", "FmgLib.Localization.csproj", "{F2231A23-8F19-4520-865C-8A7FAE7C5D56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2231A23-8F19-4520-865C-8A7FAE7C5D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2231A23-8F19-4520-865C-8A7FAE7C5D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2231A23-8F19-4520-865C-8A7FAE7C5D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2231A23-8F19-4520-865C-8A7FAE7C5D56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A7F3BAE-C8B2-49C4-88C4-4AF175C2B3D5}
+	EndGlobalSection
+EndGlobal
