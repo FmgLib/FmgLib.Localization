@@ -4,15 +4,17 @@ namespace FmgLib.Localization;
 
 public static class ServiceRegistration
 {
-    public static IServiceCollection AddFmgLibLocalization(this IServiceCollection services, params string[] filePathes)
+    public static IServiceCollection AddFmgLibLocalization(this IServiceCollection services, string defaultLang = "", params string[] filePathes)
     {
+        LocalizationService.Language = defaultLang;
         LocalizationService.ReadLocalizationFile(filePathes);
 
         return services;
     }
 
-    public static void SetFmgLibLocalization(params string[] filePathes)
+    public static void SetFmgLibLocalization(string defaultLang = "", params string[] filePathes)
     {
+        LocalizationService.Language = defaultLang;
         LocalizationService.ReadLocalizationFile(filePathes);
     }
 }
