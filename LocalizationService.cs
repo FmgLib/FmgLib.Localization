@@ -13,6 +13,7 @@ public static class LocalizationService
 
         try
         {
+            // Todo : new features will be added.
             List<string> pathesList = filePathes.ToList();
 
             if (pathesList.Count == 0)
