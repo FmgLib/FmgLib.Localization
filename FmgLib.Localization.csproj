@@ -7,13 +7,14 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>FmgLib.Localization</Title>
 		<Company>Fmg Yazılım</Company>
-		<PackageIcon>FMGYAZILIM_LOGO.png</PackageIcon>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<Authors>FmgYazılım</Authors>
 		<Description>This package serves to integrate your system into multiple languages.</Description>
 		<Copyright>Copyright 2023</Copyright>
 		<PackageTags>Localization</PackageTags>
 		<Version>1.0.4-prev</Version>
+		<PackageIcon>nuget.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -22,14 +23,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Update="FMGYAZILIM_LOGO.png">
-			<Pack>True</Pack>
-			<PackagePath>\</PackagePath>
-		</None>
-		<None Update="README.md">
-			<Pack>True</Pack>
-			<PackagePath>\</PackagePath>
-		</None>
+		<None Include="LICENSE" Pack="true" PackagePath="" />
+		<None Include="nuget.png" Pack="true" PackagePath="" />
+		<None Include="README.md" Pack="true" PackagePath="" />
 	</ItemGroup>
 
 </Project>
